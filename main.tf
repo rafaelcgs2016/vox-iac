@@ -13,6 +13,6 @@ module "vpc" {
   one_nat_gateway_per_az = true
 
   tags = {
-        Environment = "dev"
+        Environment = "qa"
   }
 }
